@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11.2-queue-with-priority", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11-homework", "11-homework\11-homework.vcxproj", "{9456377C-B87C-4371-AC2E-0AC1528053BC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12-single-linked-list", "12-single-linked-list\12-single-linked-list.vcxproj", "{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{9456377C-B87C-4371-AC2E-0AC1528053BC}.Release|x64.Build.0 = Release|x64
 		{9456377C-B87C-4371-AC2E-0AC1528053BC}.Release|x86.ActiveCfg = Release|Win32
 		{9456377C-B87C-4371-AC2E-0AC1528053BC}.Release|x86.Build.0 = Release|Win32
+		{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}.Debug|x64.ActiveCfg = Debug|x64
+		{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}.Debug|x64.Build.0 = Debug|x64
+		{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}.Debug|x86.ActiveCfg = Debug|Win32
+		{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}.Debug|x86.Build.0 = Debug|Win32
+		{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}.Release|x64.ActiveCfg = Release|x64
+		{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}.Release|x64.Build.0 = Release|x64
+		{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}.Release|x86.ActiveCfg = Release|Win32
+		{DD242083-9EAE-4E5F-9AEB-959CCF56D32E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
