@@ -2,7 +2,7 @@
 
 void Aspirant::print() const
 {
-	Student::print();
+	Person::print();
 
 	cout << "dissertation theme - " << dissertationTheme << endl;
 	cout << "pages - " << pages << endl << endl;

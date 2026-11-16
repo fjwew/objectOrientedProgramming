@@ -1,6 +1,6 @@
 #include "Student.h"
 
-void Student::print() const
+void Person::print() const
 {
 	cout << name << " " << surname << " " << lastname << endl;
 	cout << "age - " << age << endl;
@@ -9,7 +9,7 @@ void Student::print() const
 	cout << "average mark - " << averageMark << endl << endl;
 }
 
-void Student::averageMarkC(int mark)
+void Person::averageMarkC(int mark)
 {
 	averageMark = (averageMark + mark) / 2;
 }

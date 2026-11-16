@@ -3,7 +3,7 @@
 int main()
 {
 	cout << "student--------------------------------------------" << endl;
-	Student s("Andrew", "Manzuk", "Serhiyovich", 14, 2, "programming", 54.7);
+	Person s("Andrew", "Manzuk", "Serhiyovich", 14, 2, "programming", 54.7);
 
 	s.print();
 	s.averageMarkC(12);
