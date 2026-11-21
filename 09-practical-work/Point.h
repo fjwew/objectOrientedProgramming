@@ -7,6 +7,7 @@ class Point
 private:
 	int x;
 	int y;
+
 public:
 	Point();
 	Point(int x, int y);
@@ -23,5 +24,6 @@ public:
 	Point operator !();
 
 	void print() const;
+
 };
 
