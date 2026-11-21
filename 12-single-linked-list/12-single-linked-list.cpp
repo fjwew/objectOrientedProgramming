@@ -90,12 +90,18 @@ private:
     {
         int x;
         int y;
+
+        Point() : x(0), y(0) {}
+        Point(int x, int y) : x(x), y(y) {}
     };
 
     Point point;
     Node* head;
 
 public:
+    Vector() : point() {}
+    Vector(int x, int y) : point(x, y) {}
+
     void addtohead(int value)
     {
         Node* newNode = new Node(value, head);
